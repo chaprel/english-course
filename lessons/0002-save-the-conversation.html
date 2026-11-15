@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; media-src 'self' blob:; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="theme-color" content="#0f1115">
+<title>Спаси разговор</title>
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="icon" href="../icons/icon-192.png">
+<link rel="stylesheet" href="../assets/course.css">
+</head>
+<body>
+<main id="lesson-root"><p class="muted">Загрузка…</p></main>
+
+<section id="lesson-extra" class="sources" hidden>
+  <h2>Шпаргалка</h2>
+  <p>Три фразы этого урока с пояснениями лежат в <a href="../reference/phrasebook.html">разговорнике</a>. Предыдущий урок: <a href="0001-start.html">«Старт»</a>.</p>
+  <h2>Посмотри сам</h2>
+  <p>Главный источник: видео <a href="https://learnenglishteens.britishcouncil.org/skills/speaking/a1-speaking/homework-problems" rel="noopener">Homework problems</a> на British Council LearnEnglish Teens. Подростки переспрашивают друг друга теми же приёмами: «Can you say that again?», «Do you mean…?». Под видео есть текст.</p>
+  <p>Ещё одна сцена на ту же тему: <a href="https://learnenglish.britishcouncil.org/free-resources/speaking/a1/checking-understanding" rel="noopener">Checking understanding</a> (British Council LearnEnglish).</p>
+  <h2>Почему именно эти фразы</h2>
+  <p>Кто умеет переспросить, тот не выпадает из разговора и слышит больше живой речи. Обзор 61 исследования показал, что обучение разговорным стратегиям даёт заметный эффект (<a href="https://experts.nau.edu/en/publications/the-effectiveness-of-second-language-strategy-instruction-a-meta-/" rel="noopener">Plonsky, 2011</a>; обзор про стратегии в целом, не только про переспрашивание).</p>
+  <h2>Есть вопрос?</h2>
+  <p>Напиши его в поле «Вопрос учителю» в конце урока или передай через родителя.</p>
+</section>
+
+<script type="application/json" id="lesson">
+{
+  "meta": {
+    "id": "0002",
+    "title": "Спаси разговор",
+    "win": "Теперь ты можешь не потеряться, когда не расслышал или не понял: переспросить, попросить говорить медленнее и узнать значение слова.",
+    "minutes": 7,
+    "source": { "title": "British Council LearnEnglish Teens: Homework problems", "url": "https://learnenglishteens.britishcouncil.org/skills/speaking/a1-speaking/homework-problems" }
+  },
+  "items": [
+    { "id": "k0201", "en": "Sorry, could you say that again?", "ru": "Извини, можешь повторить?", "slow": true,
+      "note": "Could you в быстрой речи сливается и звучит почти как «куджу». Голос в конце идёт вверх: это вопрос." },
+    { "id": "k0202", "en": "Could you speak more slowly, please?", "ru": "Можешь говорить помедленнее, пожалуйста?", "slow": true,
+      "note": "Ударение на slowly. Please в конце делает просьбу вежливой: так можно сказать и взрослому, и незнакомцу." },
+    { "id": "k0203", "en": "What does that mean?", "ru": "Что это значит?", "slow": true,
+      "note": "Does that сливается: «дазэт». Это вопрос про слово или фразу, а не про человека." },
+
+    { "id": "a0201", "en": "Hey, do you want to grab a bite after practice?", "voice": "am_michael", "speed": 1.25 },
+    { "id": "a0202", "en": "Sorry, could you say that again?", "voice": "af_bella" },
+    { "id": "a0203", "en": "Do you want to get some food after practice?", "voice": "am_michael", "speed": 0.9 },
+    { "id": "a0204", "en": "What do you mean?", "voice": "bf_emma" },
+    { "id": "a0205", "en": "The match was called off because of the weather.", "voice": "am_michael", "speed": 1.25 },
+    { "id": "a0206", "en": "The match was called off because of the weather.", "voice": "am_michael", "speed": 1.0 },
+    { "id": "a0207", "en": "The match was called off because of the weather.", "voice": "am_michael", "speed": 0.8 },
+    { "id": "a0208", "en": "Called off means cancelled. There is no match today.", "voice": "am_michael", "speed": 0.9 }
+  ],
+  "steps": [
+    { "type": "listen", "title": "Двое после тренировки", "audio": ["a0201", "a0202", "a0203"],
+      "q": "Что сделала девушка, когда не расслышала?",
+      "options": ["Попросила повторить фразу", "Сразу согласилась пойти", "Сменила тему разговора"], "answer": 0,
+      "explain": "Она не притворилась, что поняла, а переспросила. Парень повторил проще и медленнее. Этому и научимся." },
+    { "type": "chunk", "item": "k0201" },
+    { "type": "shadow", "item": "k0201" },
+    { "type": "chunk", "item": "k0202" },
+    { "type": "shadow", "item": "k0202" },
+    { "type": "chunk", "item": "k0203" },
+    { "type": "shadow", "item": "k0203" },
+    { "type": "pair", "audio": "a0204", "options": ["What does that mean?", "What do you mean?"], "answer": 1,
+      "explain": "What do you mean? значит «Что ты имеешь в виду?»: вопрос к человеку. What does that mean? это вопрос про слово." },
+    { "type": "tiles", "item": "k0201", "distractors": ["speak", "more"] },
+    { "type": "tiles", "item": "k0202", "distractors": ["say", "again"] },
+    { "type": "dictation", "item": "k0203" },
+    { "type": "dialogue", "title": "Друг говорит слишком быстро",
+      "intro": "Ты слушаешь, потом говоришь свою реплику вслух. Текст собеседника сначала скрыт: попробуй понять на слух.",
+      "turns": [
+        { "who": "them", "audio": "a0205" },
+        { "who": "you", "item": "k0201", "prompt": "Ты не расслышал. Попроси повторить." },
+        { "who": "them", "audio": "a0206" },
+        { "who": "you", "item": "k0202", "prompt": "Всё ещё слишком быстро. Попроси говорить медленнее." },
+        { "who": "them", "audio": "a0207" },
+        { "who": "you", "item": "k0203", "prompt": "Слова ты расслышал, но called off тебе незнакомо. Спроси, что это значит." },
+        { "who": "them", "audio": "a0208" }
+      ] },
+    { "type": "recall", "item": "k0202", "prompt": "Собеседник тараторит. Что ты скажешь?" },
+    { "type": "mission", "text": "Сегодня один раз скажи вслух настоящему человеку: «Sorry, could you say that again?». Родителю, другу или в игре." }
+  ]
+}
+</script>
+<script type="module" src="../assets/lesson.js"></script>
+</body>
+</html>

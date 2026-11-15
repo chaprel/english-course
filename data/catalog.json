@@ -1,0 +1,362 @@
+{
+ "ack": 0,
+ "app": "Speak EN",
+ "files": [
+  "index.html",
+  "review.html",
+  "check.html",
+  "sw.js",
+  "manifest.webmanifest",
+  ".nojekyll",
+  "assets/app.js",
+  "assets/audio.js",
+  "assets/check.js",
+  "assets/course.css",
+  "assets/devcheck.js",
+  "assets/engine.js",
+  "assets/lesson.js",
+  "assets/recorder.js",
+  "assets/ref.js",
+  "assets/review.js",
+  "assets/share.js",
+  "assets/srs.js",
+  "assets/store.js",
+  "assets/summary.js",
+  "lessons/0001-start.html",
+  "lessons/0002-save-the-conversation.html",
+  "reference/phrasebook.html",
+  "icons/apple-touch-icon.png",
+  "icons/icon-192.png",
+  "icons/icon-512.png",
+  "icons/icon-maskable-512.png"
+ ],
+ "items": {
+  "a0101": {
+   "audio": {
+    "af_bella": {
+     "n": "audio/2e961385b8bef4dc.mp3"
+    },
+    "af_heart": {
+     "n": "audio/3fd904a9073e82b2.mp3"
+    },
+    "am_michael": {
+     "n": "audio/7f4dbd88a0e5fb9b.mp3"
+    },
+    "bf_emma": {
+     "n": "audio/e220e5a41b075922.mp3"
+    }
+   },
+   "en": "Hi! This is how I sound. Pick the voice you like.",
+   "lesson": "0001",
+   "srs": false
+  },
+  "a0102": {
+   "audio": {
+    "am_michael": {
+     "n": "audio/e5e72db3b9560276.mp3"
+    }
+   },
+   "en": "Hello! My name is Tom. I am twelve years old.",
+   "lesson": "0001",
+   "srs": false
+  },
+  "a0103": {
+   "audio": {
+    "af_heart": {
+     "n": "audio/0cfd9754253cc389.mp3"
+    }
+   },
+   "en": "I have a brother and two sisters.",
+   "lesson": "0001",
+   "srs": false
+  },
+  "a0104": {
+   "audio": {
+    "bf_emma": {
+     "n": "audio/00e1b390bd81370f.mp3"
+    }
+   },
+   "en": "The book is on the table.",
+   "lesson": "0001",
+   "srs": false
+  },
+  "a0105": {
+   "audio": {
+    "af_bella": {
+     "n": "audio/47f7ba68461d5932.mp3"
+    }
+   },
+   "en": "I get up at seven o'clock.",
+   "lesson": "0001",
+   "srs": false
+  },
+  "a0106": {
+   "audio": {
+    "bf_emma": {
+     "n": "audio/a5446b4a9af8e469.mp3"
+    }
+   },
+   "en": "Go straight on and turn left at the bank. The bus stop is right there.",
+   "lesson": "0001",
+   "srs": false
+  },
+  "a0107": {
+   "audio": {
+    "am_michael": {
+     "n": "audio/475e55f59a7e84c0.mp3"
+    }
+   },
+   "en": "The train to London leaves at half past nine from platform four.",
+   "lesson": "0001",
+   "srs": false
+  },
+  "a0108": {
+   "audio": {
+    "af_heart": {
+     "n": "audio/8dda358bf5886bc6.mp3"
+    }
+   },
+   "en": "I can't come to the party tonight because I have to study for a test.",
+   "lesson": "0001",
+   "srs": false
+  },
+  "a0109": {
+   "audio": {
+    "af_bella": {
+     "n": "audio/c44fd4e36057adeb.mp3"
+    }
+   },
+   "en": "Could I have a cheese sandwich and an orange juice, please?",
+   "lesson": "0001",
+   "srs": false
+  },
+  "a0110": {
+   "audio": {
+    "am_michael": {
+     "n": "audio/0c4d050f09ffa50e.mp3"
+    }
+   },
+   "en": "I was going to walk to school, but it started raining, so my dad gave me a lift.",
+   "lesson": "0001",
+   "srs": false
+  },
+  "a0111": {
+   "audio": {
+    "bf_emma": {
+     "n": "audio/e3e938790daa3f1a.mp3"
+    }
+   },
+   "en": "If I'd known the shop was closed on Sundays, I wouldn't have come all the way here.",
+   "lesson": "0001",
+   "srs": false
+  },
+  "a0112": {
+   "audio": {
+    "af_heart": {
+     "n": "audio/b49854cea7e6e774.mp3"
+    }
+   },
+   "en": "She said she'd rather stay in and watch a film than go out tonight.",
+   "lesson": "0001",
+   "srs": false
+  },
+  "a0113": {
+   "audio": {
+    "af_bella": {
+     "n": "audio/2e3446d344ccc5df.mp3"
+    }
+   },
+   "en": "I've been learning to play the guitar for about two years, but I still can't read music.",
+   "lesson": "0001",
+   "srs": false
+  },
+  "a0201": {
+   "audio": {
+    "am_michael": {
+     "n": "audio/8105baba11552fa4.mp3"
+    }
+   },
+   "en": "Hey, do you want to grab a bite after practice?",
+   "lesson": "0002",
+   "srs": false
+  },
+  "a0202": {
+   "audio": {
+    "af_bella": {
+     "n": "audio/e2e1d39e134c465a.mp3"
+    }
+   },
+   "en": "Sorry, could you say that again?",
+   "lesson": "0002",
+   "srs": false
+  },
+  "a0203": {
+   "audio": {
+    "am_michael": {
+     "n": "audio/24793dd2c6e4dff9.mp3"
+    }
+   },
+   "en": "Do you want to get some food after practice?",
+   "lesson": "0002",
+   "srs": false
+  },
+  "a0204": {
+   "audio": {
+    "bf_emma": {
+     "n": "audio/0e454d8730f39c22.mp3"
+    }
+   },
+   "en": "What do you mean?",
+   "lesson": "0002",
+   "srs": false
+  },
+  "a0205": {
+   "audio": {
+    "am_michael": {
+     "n": "audio/5bd15119bc7569d6.mp3"
+    }
+   },
+   "en": "The match was called off because of the weather.",
+   "lesson": "0002",
+   "srs": false
+  },
+  "a0206": {
+   "audio": {
+    "am_michael": {
+     "n": "audio/2835ac8654efe219.mp3"
+    }
+   },
+   "en": "The match was called off because of the weather.",
+   "lesson": "0002",
+   "srs": false
+  },
+  "a0207": {
+   "audio": {
+    "am_michael": {
+     "n": "audio/8a6fe44ed6716f60.mp3"
+    }
+   },
+   "en": "The match was called off because of the weather.",
+   "lesson": "0002",
+   "srs": false
+  },
+  "a0208": {
+   "audio": {
+    "am_michael": {
+     "n": "audio/a6515def119c5070.mp3"
+    }
+   },
+   "en": "Called off means cancelled. There is no match today.",
+   "lesson": "0002",
+   "srs": false
+  },
+  "k0201": {
+   "audio": {
+    "af_bella": {
+     "n": "audio/e2e1d39e134c465a.mp3",
+     "s": "audio/65bdb50900c91e51.mp3"
+    },
+    "af_heart": {
+     "n": "audio/400fb79221d3eb98.mp3",
+     "s": "audio/634e9f782e98b74f.mp3"
+    },
+    "am_michael": {
+     "n": "audio/85c8f75c09426fa3.mp3",
+     "s": "audio/dd700cb6c95bad6c.mp3"
+    },
+    "bf_emma": {
+     "n": "audio/97545d2b477ef7c0.mp3",
+     "s": "audio/307d709ef63dfff8.mp3"
+    }
+   },
+   "en": "Sorry, could you say that again?",
+   "lesson": "0002",
+   "note": "Could you в быстрой речи сливается и звучит почти как «куджу». Голос в конце идёт вверх: это вопрос.",
+   "ru": "Извини, можешь повторить?",
+   "srs": true
+  },
+  "k0202": {
+   "audio": {
+    "af_bella": {
+     "n": "audio/016d8b32b52db4d4.mp3",
+     "s": "audio/b97a66a090deb595.mp3"
+    },
+    "af_heart": {
+     "n": "audio/18f067e455747922.mp3",
+     "s": "audio/bb41e41e4f844352.mp3"
+    },
+    "am_michael": {
+     "n": "audio/c801453b06178f01.mp3",
+     "s": "audio/814b5048623299ab.mp3"
+    },
+    "bf_emma": {
+     "n": "audio/c728a39b414b8530.mp3",
+     "s": "audio/0754f868485c0276.mp3"
+    }
+   },
+   "en": "Could you speak more slowly, please?",
+   "lesson": "0002",
+   "note": "Ударение на slowly. Please в конце делает просьбу вежливой: так можно сказать и взрослому, и незнакомцу.",
+   "ru": "Можешь говорить помедленнее, пожалуйста?",
+   "srs": true
+  },
+  "k0203": {
+   "audio": {
+    "af_bella": {
+     "n": "audio/f7328c478a78a227.mp3",
+     "s": "audio/c126bb9d844bf096.mp3"
+    },
+    "af_heart": {
+     "n": "audio/f33ad738c983f187.mp3",
+     "s": "audio/5ea9374c960eade0.mp3"
+    },
+    "am_michael": {
+     "n": "audio/46b17ec4101e179f.mp3",
+     "s": "audio/f688728ca6e79b2f.mp3"
+    },
+    "bf_emma": {
+     "n": "audio/4c86faa89b75795f.mp3",
+     "s": "audio/b86e005f1db2b8e6.mp3"
+    }
+   },
+   "en": "What does that mean?",
+   "lesson": "0002",
+   "note": "Does that сливается: «дазэт». Это вопрос про слово или фразу, а не про человека.",
+   "ru": "Что это значит?",
+   "srs": true
+  }
+ },
+ "lessons": [
+  {
+   "file": "lessons/0001-start.html",
+   "hash": "0358",
+   "id": "0001",
+   "items": [],
+   "minutes": 6,
+   "title": "Старт",
+   "win": "Ты узнаешь, насколько хорошо понимаешь английский на слух, и настроишь курс под себя."
+  },
+  {
+   "file": "lessons/0002-save-the-conversation.html",
+   "hash": "7740",
+   "id": "0002",
+   "items": [
+    "k0201",
+    "k0202",
+    "k0203"
+   ],
+   "minutes": 7,
+   "title": "Спаси разговор",
+   "win": "Теперь ты можешь не потеряться, когда не расслышал или не понял: переспросить, попросить говорить медленнее и узнать значение слова."
+  }
+ ],
+ "rev": "4c17a846",
+ "sample": "a0101",
+ "v": 1,
+ "voices": [
+  "af_heart",
+  "am_michael",
+  "bf_emma",
+  "af_bella"
+ ]
+}

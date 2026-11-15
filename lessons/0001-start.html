@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; media-src 'self' blob:; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="theme-color" content="#0f1115">
+<title>Старт</title>
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="icon" href="../icons/icon-192.png">
+<link rel="stylesheet" href="../assets/course.css">
+</head>
+<body>
+<main id="lesson-root"><p class="muted">Загрузка…</p></main>
+
+<section id="lesson-extra" class="sources" hidden>
+  <h2>Что дальше</h2>
+  <p>Следующий урок уже готов: <a href="0002-save-the-conversation.html">«Спаси разговор»</a>. Все фразы курса собираются в <a href="../reference/phrasebook.html">разговорнике</a>.</p>
+  <h2>Посмотри сам</h2>
+  <p>Главный источник: раздел Listening на <a href="https://learnenglishteens.britishcouncil.org/skills/listening" rel="noopener">British Council LearnEnglish Teens</a>. Это бесплатный сайт для 13–17 лет, записи разбиты по уровням от A1 до C1. Выбери уровень из своего результата и послушай одну запись.</p>
+  <h2>Откуда уровни</h2>
+  <p>A1, A2 и B1 это ступени общеевропейской шкалы CEFR. Слова в тесте подобраны по официальным спискам Cambridge: <a href="https://www.cambridgeenglish.org/Images/506886-a2-key-2020-vocabulary-list.pdf" rel="noopener">A2 Key</a> и <a href="https://www.cambridgeenglish.org/Images/506887-b1-preliminary-vocabulary-list.pdf" rel="noopener">B1 Preliminary</a>. Тест короткий, поэтому оценка грубая.</p>
+  <h2>Есть вопрос?</h2>
+  <p>Напиши его в поле «Вопрос учителю» в конце любого урока или передай через родителя.</p>
+</section>
+
+<script type="application/json" id="lesson">
+{
+  "meta": {
+    "id": "0001",
+    "title": "Старт",
+    "win": "Ты узнаешь, насколько хорошо понимаешь английский на слух, и настроишь курс под себя.",
+    "minutes": 6,
+    "source": { "title": "British Council LearnEnglish Teens: Listening", "url": "https://learnenglishteens.britishcouncil.org/skills/listening" }
+  },
+  "items": [
+    { "id": "a0101", "en": "Hi! This is how I sound. Pick the voice you like.", "voices": ["af_heart", "am_michael", "bf_emma", "af_bella"] },
+
+    { "id": "a0102", "en": "Hello! My name is Tom. I am twelve years old.", "voice": "am_michael", "speed": 0.85 },
+    { "id": "a0103", "en": "I have a brother and two sisters.", "voice": "af_heart", "speed": 0.85 },
+    { "id": "a0104", "en": "The book is on the table.", "voice": "bf_emma", "speed": 0.85 },
+    { "id": "a0105", "en": "I get up at seven o'clock.", "voice": "af_bella", "speed": 0.85 },
+
+    { "id": "a0106", "en": "Go straight on and turn left at the bank. The bus stop is right there.", "voice": "bf_emma" },
+    { "id": "a0107", "en": "The train to London leaves at half past nine from platform four.", "voice": "am_michael" },
+    { "id": "a0108", "en": "I can't come to the party tonight because I have to study for a test.", "voice": "af_heart" },
+    { "id": "a0109", "en": "Could I have a cheese sandwich and an orange juice, please?", "voice": "af_bella" },
+
+    { "id": "a0110", "en": "I was going to walk to school, but it started raining, so my dad gave me a lift.", "voice": "am_michael", "speed": 1.05 },
+    { "id": "a0111", "en": "If I'd known the shop was closed on Sundays, I wouldn't have come all the way here.", "voice": "bf_emma", "speed": 1.05 },
+    { "id": "a0112", "en": "She said she'd rather stay in and watch a film than go out tonight.", "voice": "af_heart", "speed": 1.05 },
+    { "id": "a0113", "en": "I've been learning to play the guitar for about two years, but I still can't read music.", "voice": "af_bella", "speed": 1.05 }
+  ],
+  "steps": [
+    { "type": "info", "title": "Как устроен курс",
+      "body": [
+        "Цель: говорить по-английски и понимать речь на слух. Здесь мало правил и много звука.",
+        "Урок занимает 5–8 минут. Каждый день есть короткое повторение: без него фразы забываются за пару дней.",
+        "После занятия отправляй отчёт родителю одной кнопкой. По нему учитель готовит следующий урок именно под тебя.",
+        "Сегодня: проверим телефон, выберем голос и узнаем твой уровень." ] },
+    { "type": "check" },
+    { "type": "voice", "sample": "a0101" },
+    { "type": "placement", "pass": 3, "tiers": [
+      { "level": "A1", "items": [
+        { "audio": "a0102", "q": "Сколько лет Тому?", "options": ["Ему десять лет", "Ему двенадцать лет", "Ему двадцать лет"], "answer": 1 },
+        { "audio": "a0103", "q": "Сколько у него сестёр?", "options": ["Одна сестра", "Две сестры", "Три сестры"], "answer": 1 },
+        { "audio": "a0104", "q": "Где лежит книга?", "options": ["На столе", "Под столом", "В сумке"], "answer": 0 },
+        { "audio": "a0105", "q": "Во сколько она встаёт?", "options": ["В шесть", "В семь", "В восемь"], "answer": 1 }
+      ] },
+      { "level": "A2", "items": [
+        { "audio": "a0106", "q": "Куда повернуть у банка?", "options": ["Налево", "Направо", "Назад"], "answer": 0 },
+        { "audio": "a0107", "q": "С какой платформы уходит поезд?", "options": ["С третьей", "С четвёртой", "С девятой"], "answer": 1 },
+        { "audio": "a0108", "q": "Почему она не придёт на вечеринку?", "options": ["Готовится к тесту", "Уехала к бабушке", "Заболела и лежит"], "answer": 0 },
+        { "audio": "a0109", "q": "Какой напиток она заказала?", "options": ["Яблочный сок", "Чёрный чай", "Апельсиновый сок"], "answer": 2 }
+      ] },
+      { "level": "B1", "items": [
+        { "audio": "a0110", "q": "Как он добрался до школы?", "options": ["Один пешком под дождём", "С папой на машине", "С другом на автобусе"], "answer": 1 },
+        { "audio": "a0111", "q": "Что пошло не так?", "options": ["Магазин оказался закрыт", "Магазин переехал далеко", "Магазин открылся позже"], "answer": 0 },
+        { "audio": "a0112", "q": "Чего ей хочется сегодня вечером?", "options": ["Пойти в кинотеатр", "Гулять с друзьями", "Смотреть фильм дома"], "answer": 2 },
+        { "audio": "a0113", "q": "Чего он до сих пор не умеет?", "options": ["Играть аккорды", "Читать ноты", "Петь песни"], "answer": 1 }
+      ] }
+    ] },
+    { "type": "choose", "id": "goals", "title": "Зачем тебе английский?", "hint": "Выбери до трёх. Честно: от этого зависят темы уроков.", "max": 3,
+      "options": [
+        { "id": "g1", "label": "Понимать видео и стримы" },
+        { "id": "g2", "label": "Общаться в играх" },
+        { "id": "g3", "label": "Говорить в поездках" },
+        { "id": "g4", "label": "Устные ответы в школе" },
+        { "id": "g5", "label": "Общаться с иностранцами" },
+        { "id": "g6", "label": "Учёба за границей" },
+        { "id": "g7", "label": "Пока не знаю" }
+      ] },
+    { "type": "choose", "id": "ints", "title": "Что тебе интересно?", "hint": "Выбери до четырёх. Диалоги в уроках будут про это.", "max": 4,
+      "text": "Чего нет в списке? Необязательно",
+      "options": [
+        { "id": "i1", "label": "Игры" },
+        { "id": "i2", "label": "Музыка" },
+        { "id": "i3", "label": "Спорт" },
+        { "id": "i4", "label": "Кино и сериалы" },
+        { "id": "i5", "label": "Техника и код" },
+        { "id": "i6", "label": "Путешествия" },
+        { "id": "i7", "label": "Наука и космос" },
+        { "id": "i8", "label": "Машины" },
+        { "id": "i9", "label": "Еда" },
+        { "id": "i10", "label": "Аниме и рисование" }
+      ] },
+    { "type": "choose", "id": "mins", "title": "Сколько минут в день ты готов заниматься?", "hint": "Лучше мало, но каждый день.", "max": 1,
+      "options": [
+        { "id": "m5", "label": "5 минут" },
+        { "id": "m10", "label": "10 минут" },
+        { "id": "m15", "label": "15 минут" },
+        { "id": "m20", "label": "20 и больше" }
+      ] }
+  ]
+}
+</script>
+<script type="module" src="../assets/lesson.js"></script>
+</body>
+</html>
