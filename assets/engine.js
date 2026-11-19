@@ -94,11 +94,14 @@ export class Runner {
     const b = h('button', { class: 'btn play', type: 'button' }, h('span', { class: 'ico-play' }), label);
     b.addEventListener('click', async () => {
       b.classList.add('on');
+      const t0 = Date.now();
       this.plays++;
       const paths = [].concat(typeof pathFn === 'function' ? pathFn() : pathFn);
       let ok = true;
       for (const p of paths) { ok = await play(p); if (!ok) break; }
       b.classList.remove('on');
+      // A refusal by the phone comes back at once; a late false is just an interrupted clip.
+      b.lastChild.textContent = !ok && Date.now() - t0 < 8000 ? 'Не сыграло. Нажми ещё раз' : label;
       if (onDone) onDone(ok);
     });
     return b;

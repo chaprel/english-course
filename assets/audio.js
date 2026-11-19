@@ -22,15 +22,21 @@ function silentUrl() {
   return silent;
 }
 
+// Must run synchronously inside a tap handler. iPhone counts only finished taps (touchend, click) as a
+// user gesture, not pointerdown, so the listeners stay until one attempt really succeeds.
+const GESTURES = ['pointerdown', 'pointerup', 'touchend', 'click', 'keydown'];
 export function unlock() {
   if (unlocked) return;
   unlocked = true;
   const s = silentUrl();
   el.src = s;
   const p = el.play();
-  if (p) p.then(() => { if (el.src === s) el.pause(); }).catch(() => { unlocked = false; });
+  const ok = () => GESTURES.forEach((g) => document.removeEventListener(g, unlock, true));
+  if (!p) { ok(); return; }
+  p.then(() => { ok(); if (el.src === s) el.pause(); })
+    .catch((e) => { if (e && e.name === 'AbortError') ok(); else unlocked = false; });
 }
-document.addEventListener('pointerdown', unlock, { capture: true, once: true });
+GESTURES.forEach((g) => document.addEventListener(g, unlock, true));
 
 export const abs = (path) => (/^(blob:|https?:)/.test(path) ? path : BASE + path);
 
@@ -50,6 +56,9 @@ export function preload(paths) {
 // Resolves true when the clip played to the end, false if it failed or was interrupted.
 export async function play(path) {
   const my = ++token;
+  // Still inside the tap here: make sure the element is unlocked before waiting for the download,
+  // otherwise a slow download loses the gesture and the phone refuses to play.
+  if (!blobs.has(path) && !path.startsWith('blob:')) unlock();
   let src;
   try { src = path.startsWith('blob:') ? path : await load(path); } catch { return false; }
   if (my !== token) return false;
