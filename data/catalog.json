@@ -173,8 +173,8 @@
   },
   "a0201": {
    "audio": {
-    "am_michael": {
-     "n": "audio/8105baba11552fa4.mp3"
+    "bm_george": {
+     "n": "audio/1333fb8a82fc2ffb.mp3"
     }
    },
    "en": "Hey, do you want to grab a bite after practice?",
@@ -183,8 +183,8 @@
   },
   "a0202": {
    "audio": {
-    "af_bella": {
-     "n": "audio/e2e1d39e134c465a.mp3"
+    "bf_isabella": {
+     "n": "audio/5493dfc6c7eb6fe7.mp3"
     }
    },
    "en": "Sorry, could you say that again?",
@@ -193,8 +193,8 @@
   },
   "a0203": {
    "audio": {
-    "am_michael": {
-     "n": "audio/24793dd2c6e4dff9.mp3"
+    "bm_george": {
+     "n": "audio/601349993095801f.mp3"
     }
    },
    "en": "Do you want to get some food after practice?",
@@ -213,8 +213,8 @@
   },
   "a0205": {
    "audio": {
-    "am_michael": {
-     "n": "audio/5bd15119bc7569d6.mp3"
+    "bm_george": {
+     "n": "audio/2c9f5d8f52a2cc1c.mp3"
     }
    },
    "en": "The match was called off because of the weather.",
@@ -223,8 +223,8 @@
   },
   "a0206": {
    "audio": {
-    "am_michael": {
-     "n": "audio/2835ac8654efe219.mp3"
+    "bm_george": {
+     "n": "audio/637d694225ea35cc.mp3"
     }
    },
    "en": "The match was called off because of the weather.",
@@ -233,8 +233,8 @@
   },
   "a0207": {
    "audio": {
-    "am_michael": {
-     "n": "audio/8a6fe44ed6716f60.mp3"
+    "bm_george": {
+     "n": "audio/8db03f4adba6dc64.mp3"
     }
    },
    "en": "The match was called off because of the weather.",
@@ -243,8 +243,8 @@
   },
   "a0208": {
    "audio": {
-    "am_michael": {
-     "n": "audio/a6515def119c5070.mp3"
+    "bm_george": {
+     "n": "audio/f959bacc3fb37fe1.mp3"
     }
    },
    "en": "Called off means cancelled. There is no match today.",
@@ -253,8 +253,8 @@
   },
   "a0301": {
    "audio": {
-    "am_michael": {
-     "n": "audio/0622d1c761d72b28.mp3"
+    "bm_george": {
+     "n": "audio/deae9a34667b0e45.mp3"
     }
    },
    "en": "Hey! How was your weekend?",
@@ -263,8 +263,8 @@
   },
   "a0302": {
    "audio": {
-    "af_bella": {
-     "n": "audio/672a432b6482a84c.mp3"
+    "bf_isabella": {
+     "n": "audio/8b7b58dd79780a61.mp3"
     }
    },
    "en": "Pretty good, thanks. We had a match on Saturday.",
@@ -273,8 +273,8 @@
   },
   "a0303": {
    "audio": {
-    "am_michael": {
-     "n": "audio/787fe0688f768dab.mp3"
+    "bm_george": {
+     "n": "audio/7471241a5e476723.mp3"
     }
    },
    "en": "Oh, nice. How did it go?",
@@ -283,8 +283,8 @@
   },
   "a0304": {
    "audio": {
-    "af_bella": {
-     "n": "audio/9de56cfccf0cc044.mp3"
+    "bf_isabella": {
+     "n": "audio/8b442aef64202705.mp3"
     }
    },
    "en": "We won three one, and I scored a goal.",
@@ -303,8 +303,8 @@
   },
   "a0306": {
    "audio": {
-    "am_michael": {
-     "n": "audio/6ff48c1c5bdfd1c5.mp3"
+    "bm_george": {
+     "n": "audio/efeaaee8d9b297c9.mp3"
     }
    },
    "en": "Hi! Good to see you.",
@@ -313,8 +313,8 @@
   },
   "a0307": {
    "audio": {
-    "am_michael": {
-     "n": "audio/507d35b1fcfe830f.mp3"
+    "bm_george": {
+     "n": "audio/f21bc2007f668a20.mp3"
     }
    },
    "en": "It was great. I had a swimming competition on Sunday.",
@@ -323,8 +323,8 @@
   },
   "a0308": {
    "audio": {
-    "am_michael": {
-     "n": "audio/914793bb6f465e98.mp3"
+    "bm_george": {
+     "n": "audio/3b0b791ce75f4969.mp3"
     }
    },
    "en": "I came second. I'm really happy with that.",
@@ -343,21 +343,21 @@
   },
   "k0201": {
    "audio": {
-    "af_bella": {
-     "n": "audio/e2e1d39e134c465a.mp3",
-     "s": "audio/65bdb50900c91e51.mp3"
-    },
-    "af_heart": {
-     "n": "audio/400fb79221d3eb98.mp3",
-     "s": "audio/634e9f782e98b74f.mp3"
-    },
-    "am_michael": {
-     "n": "audio/85c8f75c09426fa3.mp3",
-     "s": "audio/dd700cb6c95bad6c.mp3"
-    },
     "bf_emma": {
      "n": "audio/97545d2b477ef7c0.mp3",
      "s": "audio/307d709ef63dfff8.mp3"
+    },
+    "bf_isabella": {
+     "n": "audio/5493dfc6c7eb6fe7.mp3",
+     "s": "audio/5df25b8368944b90.mp3"
+    },
+    "bm_fable": {
+     "n": "audio/e808ea0e68fb76ac.mp3",
+     "s": "audio/20396c5d8df84080.mp3"
+    },
+    "bm_george": {
+     "n": "audio/a40e920760f21b28.mp3",
+     "s": "audio/fea749c597b5574f.mp3"
     }
    },
    "en": "Sorry, could you say that again?",
@@ -368,21 +368,21 @@
   },
   "k0202": {
    "audio": {
-    "af_bella": {
-     "n": "audio/016d8b32b52db4d4.mp3",
-     "s": "audio/b97a66a090deb595.mp3"
-    },
-    "af_heart": {
-     "n": "audio/18f067e455747922.mp3",
-     "s": "audio/bb41e41e4f844352.mp3"
-    },
-    "am_michael": {
-     "n": "audio/c801453b06178f01.mp3",
-     "s": "audio/814b5048623299ab.mp3"
-    },
     "bf_emma": {
      "n": "audio/c728a39b414b8530.mp3",
      "s": "audio/0754f868485c0276.mp3"
+    },
+    "bf_isabella": {
+     "n": "audio/9b76647cecb66ebb.mp3",
+     "s": "audio/273ad4c5b8b5db03.mp3"
+    },
+    "bm_fable": {
+     "n": "audio/d89ae859e5e1f341.mp3",
+     "s": "audio/5297a118cc01dbfa.mp3"
+    },
+    "bm_george": {
+     "n": "audio/d0a339e4ccb181a2.mp3",
+     "s": "audio/829b602a135d9ef2.mp3"
     }
    },
    "en": "Could you speak more slowly, please?",
@@ -393,21 +393,21 @@
   },
   "k0203": {
    "audio": {
-    "af_bella": {
-     "n": "audio/f7328c478a78a227.mp3",
-     "s": "audio/c126bb9d844bf096.mp3"
-    },
-    "af_heart": {
-     "n": "audio/f33ad738c983f187.mp3",
-     "s": "audio/5ea9374c960eade0.mp3"
-    },
-    "am_michael": {
-     "n": "audio/46b17ec4101e179f.mp3",
-     "s": "audio/f688728ca6e79b2f.mp3"
-    },
     "bf_emma": {
      "n": "audio/4c86faa89b75795f.mp3",
      "s": "audio/b86e005f1db2b8e6.mp3"
+    },
+    "bf_isabella": {
+     "n": "audio/0828817c77f7197d.mp3",
+     "s": "audio/060aacc7eb8f91a8.mp3"
+    },
+    "bm_fable": {
+     "n": "audio/38abf4ac8f069af1.mp3",
+     "s": "audio/478f098b18628a53.mp3"
+    },
+    "bm_george": {
+     "n": "audio/033117c422c86f06.mp3",
+     "s": "audio/7e04a5123ff4215a.mp3"
     }
    },
    "en": "What does that mean?",
@@ -418,17 +418,21 @@
   },
   "k0301": {
    "audio": {
-    "af_heart": {
-     "n": "audio/1c79a160d66be58d.mp3",
-     "s": "audio/4ae71fa187787507.mp3"
-    },
-    "am_michael": {
-     "n": "audio/f3cc4844f4dddf4f.mp3",
-     "s": "audio/8b04e1b8ed23d092.mp3"
-    },
     "bf_emma": {
      "n": "audio/13c14a2018c119d0.mp3",
      "s": "audio/dc28b1085623bec9.mp3"
+    },
+    "bf_isabella": {
+     "n": "audio/946441e17bdba888.mp3",
+     "s": "audio/696843ee41e075c6.mp3"
+    },
+    "bm_fable": {
+     "n": "audio/2d0b9f18b916539d.mp3",
+     "s": "audio/923914fc1076b80e.mp3"
+    },
+    "bm_george": {
+     "n": "audio/b9aa78a43cbf6568.mp3",
+     "s": "audio/400dd0925f236d5d.mp3"
     }
    },
    "en": "How was your weekend?",
@@ -439,21 +443,21 @@
   },
   "k0302": {
    "audio": {
-    "af_bella": {
-     "n": "audio/365ecd17d8796d8d.mp3",
-     "s": "audio/02d488f778a84a28.mp3"
-    },
-    "af_heart": {
-     "n": "audio/15d898a72f1ee834.mp3",
-     "s": "audio/12dc80db502d989d.mp3"
-    },
-    "am_michael": {
-     "n": "audio/adc2db707ad2baa0.mp3",
-     "s": "audio/d86d52aec3fed836.mp3"
-    },
     "bf_emma": {
      "n": "audio/a596ec213cf30c9b.mp3",
      "s": "audio/4f908afd27e5c39e.mp3"
+    },
+    "bf_isabella": {
+     "n": "audio/d4b53a6f6f495715.mp3",
+     "s": "audio/c48d3d452ff2d9ef.mp3"
+    },
+    "bm_fable": {
+     "n": "audio/d3c1c51c7ace7fdf.mp3",
+     "s": "audio/d674f128e8b10484.mp3"
+    },
+    "bm_george": {
+     "n": "audio/b8a020c8f5a22fff.mp3",
+     "s": "audio/c1886b53dacd04f3.mp3"
     }
    },
    "en": "What did you get up to?",
@@ -464,21 +468,21 @@
   },
   "k0303": {
    "audio": {
-    "af_bella": {
-     "n": "audio/e2316f6798f29aa7.mp3",
-     "s": "audio/6dc1454c92d8e78b.mp3"
-    },
-    "af_heart": {
-     "n": "audio/4cb07d229ec6e19e.mp3",
-     "s": "audio/c1a383a309aee2ce.mp3"
-    },
-    "am_michael": {
-     "n": "audio/911c432b3b39a694.mp3",
-     "s": "audio/016addfcdcf25fd2.mp3"
-    },
     "bf_emma": {
      "n": "audio/e91537c67f508b84.mp3",
      "s": "audio/dc0e7d79b40c7d1f.mp3"
+    },
+    "bf_isabella": {
+     "n": "audio/56865109844bbe66.mp3",
+     "s": "audio/2e987772e9417259.mp3"
+    },
+    "bm_fable": {
+     "n": "audio/ac6540f30ab700cc.mp3",
+     "s": "audio/7c7a043d79b2eca3.mp3"
+    },
+    "bm_george": {
+     "n": "audio/bec873b23f3b9c3d.mp3",
+     "s": "audio/0357703cfa9cec0a.mp3"
     }
    },
    "en": "How did it go?",
@@ -500,7 +504,7 @@
   },
   {
    "file": "lessons/0002-save-the-conversation.html",
-   "hash": "7740",
+   "hash": "b58f",
    "id": "0002",
    "items": [
     "k0201",
@@ -513,7 +517,7 @@
   },
   {
    "file": "lessons/0003-how-was-your-weekend.html",
-   "hash": "7248",
+   "hash": "cf39",
    "id": "0003",
    "items": [
     "k0301",
@@ -525,13 +529,13 @@
    "win": "Теперь ты можешь сам начать разговор и не дать ему заглохнуть: спросить про выходные, узнать, чем человек занимался и как всё прошло."
   }
  ],
- "rev": "d3bb43cd",
+ "rev": "88f0ebe2",
  "sample": "a0101",
  "v": 1,
  "voices": [
-  "af_heart",
-  "am_michael",
   "bf_emma",
-  "af_bella"
+  "bm_george",
+  "bf_isabella",
+  "bm_fable"
  ]
 }
