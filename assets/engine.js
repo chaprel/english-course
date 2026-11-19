@@ -396,7 +396,8 @@ const STEPS = {
     check.addEventListener('click', () => {
       if (!input.value.trim()) return;
       typed = input.value;
-      ok = normEn(typed) === normEn(it.en);
+      // A missing apostrophe (im, dont) is a typing slip, not a listening mistake.
+      ok = normEn(typed).replace(/'/g, '') === normEn(it.en).replace(/'/g, '');
       input.disabled = true;
       check.disabled = true;
       fb.replaceChildren(h('p', {}, ok ? 'Верно.' : 'Есть отличия. Правильно так:'), h('p', { class: 'phrase small' }, it.en), h('p', { class: 'gloss' }, it.ru));

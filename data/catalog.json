@@ -25,6 +25,7 @@
   "lessons/0001-start.html",
   "lessons/0002-save-the-conversation.html",
   "lessons/0003-how-was-your-weekend.html",
+  "lessons/0004-new-at-school.html",
   "reference/phrasebook.html",
   "icons/apple-touch-icon.png",
   "icons/icon-192.png",
@@ -341,6 +342,86 @@
    "lesson": "0003",
    "srs": false
   },
+  "a0401": {
+   "audio": {
+    "bf_isabella": {
+     "n": "audio/805ba4726b381aba.mp3"
+    }
+   },
+   "en": "Hi, are you okay? You look a bit lost.",
+   "lesson": "0004",
+   "srs": false
+  },
+  "a0402": {
+   "audio": {
+    "bm_george": {
+     "n": "audio/2c8da1209e710d00.mp3"
+    }
+   },
+   "en": "Yes, I'm new here. I'm looking for room twelve.",
+   "lesson": "0004",
+   "srs": false
+  },
+  "a0403": {
+   "audio": {
+    "bf_isabella": {
+     "n": "audio/e54412d64d662128.mp3"
+    }
+   },
+   "en": "No problem. It's upstairs, next to the library. I'll show you.",
+   "lesson": "0004",
+   "srs": false
+  },
+  "a0404": {
+   "audio": {
+    "bm_fable": {
+     "n": "audio/ba07cebb479db64a.mp3"
+    }
+   },
+   "en": "Your lesson is in room twenty.",
+   "lesson": "0004",
+   "srs": false
+  },
+  "a0405": {
+   "audio": {
+    "bf_emma": {
+     "n": "audio/facefa1c7ae8c854.mp3"
+    }
+   },
+   "en": "Hello! I haven't seen you before.",
+   "lesson": "0004",
+   "srs": false
+  },
+  "a0406": {
+   "audio": {
+    "bf_emma": {
+     "n": "audio/71fd14c0fc3481e0.mp3"
+    }
+   },
+   "en": "Oh, welcome! My name's Emma.",
+   "lesson": "0004",
+   "srs": false
+  },
+  "a0407": {
+   "audio": {
+    "bf_emma": {
+     "n": "audio/1f8b6670d4c5fb93.mp3"
+    }
+   },
+   "en": "I'm in year nine. My first lesson today is maths.",
+   "lesson": "0004",
+   "srs": false
+  },
+  "a0408": {
+   "audio": {
+    "bf_emma": {
+     "n": "audio/55d5903219ad54be.mp3"
+    }
+   },
+   "en": "Yes, it's just down the corridor. Come on, I'll take you there.",
+   "lesson": "0004",
+   "srs": false
+  },
   "k0201": {
    "audio": {
     "bf_emma": {
@@ -490,6 +571,69 @@
    "note": "Вопрос про событие, которое уже закончилось: матч, концерт, контрольная. It здесь и есть это событие.",
    "ru": "Как всё прошло?",
    "srs": true
+  },
+  "k0401": {
+   "audio": {
+    "bf_emma": {
+     "n": "audio/4220f5d1294fe6d0.mp3",
+     "s": "audio/c8cb2b70a3aaade8.mp3"
+    },
+    "bf_isabella": {
+     "n": "audio/dfb788e5ae1e4bcf.mp3",
+     "s": "audio/1591615ba308f04f.mp3"
+    }
+   },
+   "en": "Hi, I'm new here.",
+   "lesson": "0004",
+   "note": "Короткая фраза, после которой тебе обычно сами предлагают помощь. I'm звучит как одно слово: «айм».",
+   "ru": "Привет, я здесь новенький.",
+   "srs": true
+  },
+  "k0402": {
+   "audio": {
+    "bf_emma": {
+     "n": "audio/7136524a21d717b3.mp3",
+     "s": "audio/6fe7a6d6169341f4.mp3"
+    },
+    "bf_isabella": {
+     "n": "audio/5b3b2948c770917d.mp3",
+     "s": "audio/1b6a8131947b835c.mp3"
+    },
+    "bm_fable": {
+     "n": "audio/c3c416a67615a08f.mp3",
+     "s": "audio/fc77af12a68ab055.mp3"
+    },
+    "bm_george": {
+     "n": "audio/9e928d0ff720384e.mp3",
+     "s": "audio/de92945b9899143d.mp3"
+    }
+   },
+   "en": "What year are you in?",
+   "lesson": "0004",
+   "note": "В британской школе говорят year: year nine значит девятый год обучения. In стоит в самом конце.",
+   "ru": "В каком ты классе?",
+   "srs": true
+  },
+  "k0403": {
+   "audio": {
+    "bf_emma": {
+     "n": "audio/ce13adbc5e129cdb.mp3",
+     "s": "audio/61b943324684e9cb.mp3"
+    },
+    "bf_isabella": {
+     "n": "audio/0dbb41628afbc210.mp3",
+     "s": "audio/c5a90da0edbf72d9.mp3"
+    },
+    "bm_fable": {
+     "n": "audio/7c1033eb9ed3b682.mp3",
+     "s": "audio/59d1463ae4f15db5.mp3"
+    }
+   },
+   "en": "Sorry, do you know where room twelve is?",
+   "lesson": "0004",
+   "note": "После do you know where порядок слов как в обычной фразе: where room twelve is, а не where is room twelve.",
+   "ru": "Извини, не знаешь, где двенадцатый кабинет?",
+   "srs": true
   }
  },
  "lessons": [
@@ -527,9 +671,22 @@
    "minutes": 7,
    "title": "Как прошли выходные?",
    "win": "Теперь ты можешь сам начать разговор и не дать ему заглохнуть: спросить про выходные, узнать, чем человек занимался и как всё прошло."
+  },
+  {
+   "file": "lessons/0004-new-at-school.html",
+   "hash": "4d73",
+   "id": "0004",
+   "items": [
+    "k0401",
+    "k0402",
+    "k0403"
+   ],
+   "minutes": 7,
+   "title": "Новенький в школе",
+   "win": "Теперь ты можешь в первый день в новой школе сказать, что ты новенький, спросить, в каком человек классе, и узнать дорогу."
   }
  ],
- "rev": "88f0ebe2",
+ "rev": "b43dfd09",
  "sample": "a0101",
  "v": 1,
  "voices": [

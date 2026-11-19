@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; media-src 'self' blob:; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="theme-color" content="#0f1115">
+<title>Новенький в школе</title>
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="icon" href="../icons/icon-192.png">
+<link rel="stylesheet" href="../assets/course.css">
+</head>
+<body>
+<main id="lesson-root"><p class="muted">Загрузка…</p></main>
+
+<section id="lesson-extra" class="sources" hidden>
+  <h2>Шпаргалка</h2>
+  <p>Три фразы этого урока лежат в <a href="../reference/phrasebook.html">разговорнике</a>. Предыдущий урок: <a href="0003-how-was-your-weekend.html">«Как прошли выходные?»</a>.</p>
+  <h2>Посмотри сам</h2>
+  <p>Главный источник: видео <a href="https://learnenglishteens.britishcouncil.org/skills/speaking/a1-speaking/meeting-people" rel="noopener">Meeting people</a> на British Council LearnEnglish Teens. Новенькая заблудилась в школе, и ей помогают: спрашивают имя и «What year are you in?». Под видео есть текст. Видео проще твоего уровня: смотри без текста и проверь, всё ли понял с первого раза.</p>
+  <h2>Почему именно эти фразы</h2>
+  <p>В новом месте первым заговаривает тот, у кого есть готовая фраза. Три фразы урока закрывают три задачи первого дня: объяснить, кто ты, начать знакомство и найти дорогу. В британской школе спрашивают про year, а не про class: так говорят и герои видео.</p>
+  <h2>Есть вопрос?</h2>
+  <p>Напиши его в поле «Вопрос учителю» в конце урока или передай через родителя.</p>
+</section>
+
+<script type="application/json" id="lesson">
+{
+  "meta": {
+    "id": "0004",
+    "title": "Новенький в школе",
+    "win": "Теперь ты можешь в первый день в новой школе сказать, что ты новенький, спросить, в каком человек классе, и узнать дорогу.",
+    "minutes": 7,
+    "source": { "title": "British Council LearnEnglish Teens: Meeting people", "url": "https://learnenglishteens.britishcouncil.org/skills/speaking/a1-speaking/meeting-people" }
+  },
+  "items": [
+    { "id": "k0401", "en": "Hi, I'm new here.", "ru": "Привет, я здесь новенький.", "slow": true, "voices": ["bf_emma", "bf_isabella"],
+      "note": "Короткая фраза, после которой тебе обычно сами предлагают помощь. I'm звучит как одно слово: «айм»." },
+    { "id": "k0402", "en": "What year are you in?", "ru": "В каком ты классе?", "slow": true,
+      "note": "В британской школе говорят year: year nine значит девятый год обучения. In стоит в самом конце." },
+    { "id": "k0403", "en": "Sorry, do you know where room twelve is?", "ru": "Извини, не знаешь, где двенадцатый кабинет?", "slow": true, "voices": ["bf_emma", "bf_isabella", "bm_fable"],
+      "note": "После do you know where порядок слов как в обычной фразе: where room twelve is, а не where is room twelve." },
+
+    { "id": "a0401", "en": "Hi, are you okay? You look a bit lost.", "voice": "bf_isabella", "speed": 1.1 },
+    { "id": "a0402", "en": "Yes, I'm new here. I'm looking for room twelve.", "voice": "bm_george", "speed": 1.1 },
+    { "id": "a0403", "en": "No problem. It's upstairs, next to the library. I'll show you.", "voice": "bf_isabella", "speed": 1.1 },
+    { "id": "a0404", "en": "Your lesson is in room twenty.", "voice": "bm_fable" },
+    { "id": "a0405", "en": "Hello! I haven't seen you before.", "voice": "bf_emma", "speed": 1.1 },
+    { "id": "a0406", "en": "Oh, welcome! My name's Emma.", "voice": "bf_emma", "speed": 1.1 },
+    { "id": "a0407", "en": "I'm in year nine. My first lesson today is maths.", "voice": "bf_emma", "speed": 1.1 },
+    { "id": "a0408", "en": "Yes, it's just down the corridor. Come on, I'll take you there.", "voice": "bf_emma", "speed": 1.1 }
+  ],
+  "steps": [
+    { "type": "listen", "title": "Первый день, коридор", "audio": ["a0401", "a0402", "a0403"],
+      "q": "Что ищет парень?",
+      "options": ["Школьную библиотеку", "Кабинет двенадцать", "Своего учителя"], "answer": 1,
+      "explain": "Он ищет двенадцатый кабинет. Библиотека прозвучала только как ориентир: кабинет наверху, рядом с ней." },
+    { "type": "chunk", "item": "k0401" },
+    { "type": "shadow", "item": "k0401" },
+    { "type": "chunk", "item": "k0402" },
+    { "type": "shadow", "item": "k0402" },
+    { "type": "chunk", "item": "k0403" },
+    { "type": "shadow", "item": "k0403" },
+    { "type": "pair", "audio": "a0404", "options": ["Your lesson is in room twelve.", "Your lesson is in room twenty."], "answer": 1,
+      "explain": "Twelve это 12, twenty это 20. Их легко спутать на слух, а в школе от этого зависит, в тот ли кабинет ты придёшь." },
+    { "type": "tiles", "item": "k0403", "distractors": ["are", "what"] },
+    { "type": "tiles", "item": "k0402", "distractors": ["is", "class"] },
+    { "type": "dictation", "item": "k0401" },
+    { "type": "dialogue", "title": "Знакомство в первый день",
+      "intro": "Ты новенький. Текст собеседницы сначала скрыт: попробуй понять на слух.",
+      "turns": [
+        { "who": "them", "audio": "a0405" },
+        { "who": "you", "item": "k0401", "prompt": "С тобой поздоровались. Скажи, что ты новенький." },
+        { "who": "them", "audio": "a0406" },
+        { "who": "you", "item": "k0402", "prompt": "Продолжи знакомство: спроси, в каком она классе." },
+        { "who": "them", "audio": "a0407" },
+        { "who": "you", "item": "k0403", "prompt": "Тебе нужен двенадцатый кабинет. Спроси дорогу." },
+        { "who": "them", "audio": "a0408" }
+      ] },
+    { "type": "recall", "item": "k0401", "prompt": "Первый день в новой школе. К тебе подошли и поздоровались. Что ты скажешь о себе?" },
+    { "type": "mission", "text": "Сегодня разыграй первый день с родителем: он твой новый одноклассник. Скажи вслух все три фразы подряд, не подглядывая." }
+  ]
+}
+</script>
+<script type="module" src="../assets/lesson.js"></script>
+</body>
+</html>
