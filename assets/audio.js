@@ -66,14 +66,28 @@ export async function play(path) {
   el.src = src;
   return new Promise((resolve) => {
     let done = false;
+    let last = 0, lastAt = Date.now(), started = false;
     const fin = (ok) => {
       if (done) return;
       done = true;
       clearTimeout(watchdog);
-      el.onended = el.onerror = null;
+      clearInterval(poll);
+      if (my === token) el.onended = el.onerror = null;
       resolve(ok);
     };
-    const watchdog = setTimeout(() => fin(false), 30000);
+    const watchdog = setTimeout(() => fin(started), 30000);
+    // iPhone does not always fire "ended" for these clips, so the end is also detected by watching the clock:
+    // the position reached the known length, or playback started and then stood still.
+    const poll = setInterval(() => {
+      if (my !== token) { fin(false); return; }
+      const t = el.currentTime, d = el.duration;
+      if (t > 0) started = true;
+      if (t !== last) { last = t; lastAt = Date.now(); return; }
+      const idle = Date.now() - lastAt;
+      if (started && Number.isFinite(d) && t >= d - 0.2 && idle > 150) fin(true);
+      else if (started && idle > 1200) fin(true);
+      else if (!started && idle > 8000) fin(false);
+    }, 100);
     el.onended = () => fin(my === token);
     el.onerror = () => fin(false);
     el.play().catch(() => fin(false));
