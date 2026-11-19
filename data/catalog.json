@@ -1,5 +1,5 @@
 {
- "ack": 0,
+ "ack": 1,
  "app": "Speak EN",
  "files": [
   "index.html",
@@ -24,6 +24,7 @@
   "assets/summary.js",
   "lessons/0001-start.html",
   "lessons/0002-save-the-conversation.html",
+  "lessons/0003-how-was-your-weekend.html",
   "reference/phrasebook.html",
   "icons/apple-touch-icon.png",
   "icons/icon-192.png",
@@ -250,6 +251,96 @@
    "lesson": "0002",
    "srs": false
   },
+  "a0301": {
+   "audio": {
+    "am_michael": {
+     "n": "audio/0622d1c761d72b28.mp3"
+    }
+   },
+   "en": "Hey! How was your weekend?",
+   "lesson": "0003",
+   "srs": false
+  },
+  "a0302": {
+   "audio": {
+    "af_bella": {
+     "n": "audio/672a432b6482a84c.mp3"
+    }
+   },
+   "en": "Pretty good, thanks. We had a match on Saturday.",
+   "lesson": "0003",
+   "srs": false
+  },
+  "a0303": {
+   "audio": {
+    "am_michael": {
+     "n": "audio/787fe0688f768dab.mp3"
+    }
+   },
+   "en": "Oh, nice. How did it go?",
+   "lesson": "0003",
+   "srs": false
+  },
+  "a0304": {
+   "audio": {
+    "af_bella": {
+     "n": "audio/9de56cfccf0cc044.mp3"
+    }
+   },
+   "en": "We won three one, and I scored a goal.",
+   "lesson": "0003",
+   "srs": false
+  },
+  "a0305": {
+   "audio": {
+    "bf_emma": {
+     "n": "audio/8f4ab42745925293.mp3"
+    }
+   },
+   "en": "Hi, how is it going?",
+   "lesson": "0003",
+   "srs": false
+  },
+  "a0306": {
+   "audio": {
+    "am_michael": {
+     "n": "audio/6ff48c1c5bdfd1c5.mp3"
+    }
+   },
+   "en": "Hi! Good to see you.",
+   "lesson": "0003",
+   "srs": false
+  },
+  "a0307": {
+   "audio": {
+    "am_michael": {
+     "n": "audio/507d35b1fcfe830f.mp3"
+    }
+   },
+   "en": "It was great. I had a swimming competition on Sunday.",
+   "lesson": "0003",
+   "srs": false
+  },
+  "a0308": {
+   "audio": {
+    "am_michael": {
+     "n": "audio/914793bb6f465e98.mp3"
+    }
+   },
+   "en": "I came second. I'm really happy with that.",
+   "lesson": "0003",
+   "srs": false
+  },
+  "a0309": {
+   "audio": {
+    "bf_emma": {
+     "n": "audio/af160703f55d0722.mp3"
+    }
+   },
+   "en": "Not much. I just stayed home and watched a film.",
+   "lesson": "0003",
+   "srs": false
+  },
   "k0201": {
    "audio": {
     "af_bella": {
@@ -324,6 +415,77 @@
    "note": "Does that сливается: «дазэт». Это вопрос про слово или фразу, а не про человека.",
    "ru": "Что это значит?",
    "srs": true
+  },
+  "k0301": {
+   "audio": {
+    "af_heart": {
+     "n": "audio/1c79a160d66be58d.mp3",
+     "s": "audio/4ae71fa187787507.mp3"
+    },
+    "am_michael": {
+     "n": "audio/f3cc4844f4dddf4f.mp3",
+     "s": "audio/8b04e1b8ed23d092.mp3"
+    },
+    "bf_emma": {
+     "n": "audio/13c14a2018c119d0.mp3",
+     "s": "audio/dc28b1085623bec9.mp3"
+    }
+   },
+   "en": "How was your weekend?",
+   "lesson": "0003",
+   "note": "Самый обычный вопрос в понедельник. Was, а не is: выходные уже прошли.",
+   "ru": "Как прошли выходные?",
+   "srs": true
+  },
+  "k0302": {
+   "audio": {
+    "af_bella": {
+     "n": "audio/365ecd17d8796d8d.mp3",
+     "s": "audio/02d488f778a84a28.mp3"
+    },
+    "af_heart": {
+     "n": "audio/15d898a72f1ee834.mp3",
+     "s": "audio/12dc80db502d989d.mp3"
+    },
+    "am_michael": {
+     "n": "audio/adc2db707ad2baa0.mp3",
+     "s": "audio/d86d52aec3fed836.mp3"
+    },
+    "bf_emma": {
+     "n": "audio/a596ec213cf30c9b.mp3",
+     "s": "audio/4f908afd27e5c39e.mp3"
+    }
+   },
+   "en": "What did you get up to?",
+   "lesson": "0003",
+   "note": "Get up to значит «заниматься чем-то». Разговорный вопрос: так спрашивают друзей, а не учителя.",
+   "ru": "Чем занимался?",
+   "srs": true
+  },
+  "k0303": {
+   "audio": {
+    "af_bella": {
+     "n": "audio/e2316f6798f29aa7.mp3",
+     "s": "audio/6dc1454c92d8e78b.mp3"
+    },
+    "af_heart": {
+     "n": "audio/4cb07d229ec6e19e.mp3",
+     "s": "audio/c1a383a309aee2ce.mp3"
+    },
+    "am_michael": {
+     "n": "audio/911c432b3b39a694.mp3",
+     "s": "audio/016addfcdcf25fd2.mp3"
+    },
+    "bf_emma": {
+     "n": "audio/e91537c67f508b84.mp3",
+     "s": "audio/dc0e7d79b40c7d1f.mp3"
+    }
+   },
+   "en": "How did it go?",
+   "lesson": "0003",
+   "note": "Вопрос про событие, которое уже закончилось: матч, концерт, контрольная. It здесь и есть это событие.",
+   "ru": "Как всё прошло?",
+   "srs": true
   }
  },
  "lessons": [
@@ -348,9 +510,22 @@
    "minutes": 7,
    "title": "Спаси разговор",
    "win": "Теперь ты можешь не потеряться, когда не расслышал или не понял: переспросить, попросить говорить медленнее и узнать значение слова."
+  },
+  {
+   "file": "lessons/0003-how-was-your-weekend.html",
+   "hash": "7248",
+   "id": "0003",
+   "items": [
+    "k0301",
+    "k0302",
+    "k0303"
+   ],
+   "minutes": 7,
+   "title": "Как прошли выходные?",
+   "win": "Теперь ты можешь сам начать разговор и не дать ему заглохнуть: спросить про выходные, узнать, чем человек занимался и как всё прошло."
   }
  ],
- "rev": "4c17a846",
+ "rev": "d3bb43cd",
  "sample": "a0101",
  "v": 1,
  "voices": [

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; media-src 'self' blob:; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="theme-color" content="#0f1115">
+<title>Как прошли выходные?</title>
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="icon" href="../icons/icon-192.png">
+<link rel="stylesheet" href="../assets/course.css">
+</head>
+<body>
+<main id="lesson-root"><p class="muted">Загрузка…</p></main>
+
+<section id="lesson-extra" class="sources" hidden>
+  <h2>Шпаргалка</h2>
+  <p>Три вопроса этого урока лежат в <a href="../reference/phrasebook.html">разговорнике</a>. Предыдущий урок: <a href="0002-save-the-conversation.html">«Спаси разговор»</a>.</p>
+  <h2>Посмотри сам</h2>
+  <p>Главный источник: видео <a href="https://learnenglishteens.britishcouncil.org/skills/speaking/b1-speaking/talking-about-your-weekend" rel="noopener">Talking about your weekend</a> на British Council LearnEnglish Teens. Двое друзей в понедельник обсуждают футбол и концерт и задают друг другу те же вопросы: «How was your weekend?», «What did you get up to?», «How did it go?». Под видео есть текст. Уровень видео выше твоего стартового: это нормально, вопросы ты уже знаешь.</p>
+  <h2>Почему именно эти фразы</h2>
+  <p>Разговор держится на вопросах. Один готовый вопрос, сказанный без паузы, даёт собеседнику повод рассказывать, а тебе время слушать. Готовые фразы связаны с более беглой речью (<a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.1012225/full" rel="noopener">Yu, 2022</a>; одно исследование, свидетельство не сильное).</p>
+  <h2>Есть вопрос?</h2>
+  <p>Напиши его в поле «Вопрос учителю» в конце урока или передай через родителя.</p>
+</section>
+
+<script type="application/json" id="lesson">
+{
+  "meta": {
+    "id": "0003",
+    "title": "Как прошли выходные?",
+    "win": "Теперь ты можешь сам начать разговор и не дать ему заглохнуть: спросить про выходные, узнать, чем человек занимался и как всё прошло.",
+    "minutes": 7,
+    "source": { "title": "British Council LearnEnglish Teens: Talking about your weekend", "url": "https://learnenglishteens.britishcouncil.org/skills/speaking/b1-speaking/talking-about-your-weekend" }
+  },
+  "items": [
+    { "id": "k0301", "en": "How was your weekend?", "ru": "Как прошли выходные?", "slow": true, "voices": ["af_heart", "am_michael", "bf_emma"],
+      "note": "Самый обычный вопрос в понедельник. Was, а не is: выходные уже прошли." },
+    { "id": "k0302", "en": "What did you get up to?", "ru": "Чем занимался?", "slow": true,
+      "note": "Get up to значит «заниматься чем-то». Разговорный вопрос: так спрашивают друзей, а не учителя." },
+    { "id": "k0303", "en": "How did it go?", "ru": "Как всё прошло?", "slow": true,
+      "note": "Вопрос про событие, которое уже закончилось: матч, концерт, контрольная. It здесь и есть это событие." },
+
+    { "id": "a0301", "en": "Hey! How was your weekend?", "voice": "am_michael", "speed": 1.1 },
+    { "id": "a0302", "en": "Pretty good, thanks. We had a match on Saturday.", "voice": "af_bella", "speed": 1.1 },
+    { "id": "a0303", "en": "Oh, nice. How did it go?", "voice": "am_michael", "speed": 1.1 },
+    { "id": "a0304", "en": "We won three one, and I scored a goal.", "voice": "af_bella", "speed": 1.1 },
+    { "id": "a0305", "en": "Hi, how is it going?", "voice": "bf_emma" },
+    { "id": "a0306", "en": "Hi! Good to see you.", "voice": "am_michael" },
+    { "id": "a0307", "en": "It was great. I had a swimming competition on Sunday.", "voice": "am_michael", "speed": 1.1 },
+    { "id": "a0308", "en": "I came second. I'm really happy with that.", "voice": "am_michael", "speed": 1.1 },
+    { "id": "a0309", "en": "Not much. I just stayed home and watched a film.", "voice": "bf_emma", "speed": 1.1 }
+  ],
+  "steps": [
+    { "type": "listen", "title": "Понедельник, двое друзей", "audio": ["a0301", "a0302", "a0303", "a0304"],
+      "q": "Что было у девушки в субботу?",
+      "options": ["Концерт любимой группы", "Матч её команды", "Поездка за город"], "answer": 1,
+      "explain": "У неё был матч: команда выиграла 3:1, и она забила гол. Заметь: парень задал всего два коротких вопроса, а рассказывала она." },
+    { "type": "chunk", "item": "k0301" },
+    { "type": "shadow", "item": "k0301" },
+    { "type": "chunk", "item": "k0302" },
+    { "type": "shadow", "item": "k0302" },
+    { "type": "chunk", "item": "k0303" },
+    { "type": "shadow", "item": "k0303" },
+    { "type": "pair", "audio": "a0305", "options": ["Hi, how did it go?", "Hi, how is it going?"], "answer": 1,
+      "explain": "How is it going? значит «Как дела?»: про сейчас. How did it go? спрашивает про то, что уже прошло." },
+    { "type": "tiles", "item": "k0302", "distractors": ["go", "was"] },
+    { "type": "tiles", "item": "k0301", "distractors": ["did", "it"] },
+    { "type": "dictation", "item": "k0303" },
+    { "type": "dialogue", "title": "Встреча после выходных",
+      "intro": "Ты ведёшь разговор: вопросы задаёшь ты. Текст собеседников сначала скрыт: попробуй понять на слух.",
+      "turns": [
+        { "who": "them", "audio": "a0306" },
+        { "who": "you", "item": "k0301", "prompt": "Понедельник. Спроси друга про выходные." },
+        { "who": "them", "audio": "a0307" },
+        { "who": "you", "item": "k0303", "prompt": "У него были соревнования. Узнай, как всё прошло." },
+        { "who": "them", "audio": "a0308" },
+        { "who": "you", "item": "k0302", "prompt": "Рядом стоит подруга и молчит. Спроси, чем занималась она." },
+        { "who": "them", "audio": "a0309" }
+      ] },
+    { "type": "recall", "item": "k0302", "prompt": "Друг вернулся с каникул. Ты хочешь узнать, чем он занимался." },
+    { "type": "mission", "text": "Сегодня спроси настоящего человека про то, что у него уже прошло (тренировка, контрольная, поездка): «How did it go?». Родителя, друга или тренера." }
+  ]
+}
+</script>
+<script type="module" src="../assets/lesson.js"></script>
+</body>
+</html>
