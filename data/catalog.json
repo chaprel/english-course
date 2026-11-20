@@ -1,5 +1,5 @@
 {
- "ack": 1,
+ "ack": 3,
  "app": "Speak EN",
  "files": [
   "index.html",
@@ -26,6 +26,7 @@
   "lessons/0002-save-the-conversation.html",
   "lessons/0003-how-was-your-weekend.html",
   "lessons/0004-new-at-school.html",
+  "lessons/0005-roommate.html",
   "reference/phrasebook.html",
   "icons/apple-touch-icon.png",
   "icons/icon-192.png",
@@ -422,6 +423,86 @@
    "lesson": "0004",
    "srs": false
   },
+  "a0501": {
+   "audio": {
+    "bm_george": {
+     "n": "audio/daf0b141ea39b6d0.mp3"
+    }
+   },
+   "en": "Hi, you must be my new roommate. I'm Jack.",
+   "lesson": "0005",
+   "srs": false
+  },
+  "a0502": {
+   "audio": {
+    "bm_fable": {
+     "n": "audio/4d3b32d58fa6701d.mp3"
+    }
+   },
+   "en": "Nice to meet you, Jack. What time does breakfast start here?",
+   "lesson": "0005",
+   "srs": false
+  },
+  "a0503": {
+   "audio": {
+    "bm_george": {
+     "n": "audio/76b32e9ed23cc837.mp3"
+    }
+   },
+   "en": "At half past seven, but the queue is long, so come early.",
+   "lesson": "0005",
+   "srs": false
+  },
+  "a0504": {
+   "audio": {
+    "bf_emma": {
+     "n": "audio/cfbac2d966d3904b.mp3"
+    }
+   },
+   "en": "Tell me, where did he live?",
+   "lesson": "0005",
+   "srs": false
+  },
+  "a0505": {
+   "audio": {
+    "bf_isabella": {
+     "n": "audio/a04856510ff642eb.mp3"
+    }
+   },
+   "en": "Hi! I'm your neighbour. I only moved in last week.",
+   "lesson": "0005",
+   "srs": false
+  },
+  "a0506": {
+   "audio": {
+    "bf_isabella": {
+     "n": "audio/d219dab23ade2fa7.mp3"
+    }
+   },
+   "en": "In Madrid, with my family. It's very different here.",
+   "lesson": "0005",
+   "srs": false
+  },
+  "a0507": {
+   "audio": {
+    "bf_isabella": {
+     "n": "audio/3f7eba602263b8a1.mp3"
+    }
+   },
+   "en": "I play basketball, and I watch a lot of films.",
+   "lesson": "0005",
+   "srs": false
+  },
+  "a0508": {
+   "audio": {
+    "bf_isabella": {
+     "n": "audio/4a6b23c05b97dff4.mp3"
+    }
+   },
+   "en": "At half past seven. See you there tomorrow!",
+   "lesson": "0005",
+   "srs": false
+  },
   "k0201": {
    "audio": {
     "bf_emma": {
@@ -634,6 +715,81 @@
    "note": "После do you know where порядок слов как в обычной фразе: where room twelve is, а не where is room twelve.",
    "ru": "Извини, не знаешь, где двенадцатый кабинет?",
    "srs": true
+  },
+  "k0501": {
+   "audio": {
+    "bf_emma": {
+     "n": "audio/9c4a931cf916f05f.mp3",
+     "s": "audio/416d6f3296a25f37.mp3"
+    },
+    "bf_isabella": {
+     "n": "audio/f4f668fea0b53144.mp3",
+     "s": "audio/9b92b1c8ac4cc129.mp3"
+    },
+    "bm_fable": {
+     "n": "audio/4a9800ab387075b4.mp3",
+     "s": "audio/a0442aa940e49b9d.mp3"
+    },
+    "bm_george": {
+     "n": "audio/2bb3ae2512804744.mp3",
+     "s": "audio/ff6a137c86a139b7.mp3"
+    }
+   },
+   "en": "What do you do in your free time?",
+   "lesson": "0005",
+   "note": "Здесь два do. Первое только помощник, второе значит «делать».",
+   "ru": "Чем ты занимаешься в свободное время?",
+   "srs": true
+  },
+  "k0502": {
+   "audio": {
+    "bf_emma": {
+     "n": "audio/8af9ba4dff7a1592.mp3",
+     "s": "audio/77bbe4b82d052a45.mp3"
+    },
+    "bf_isabella": {
+     "n": "audio/489b7cddb92240e3.mp3",
+     "s": "audio/c792181c8d5ed1c8.mp3"
+    },
+    "bm_fable": {
+     "n": "audio/a27322010813fcf9.mp3",
+     "s": "audio/bca80afdeb8c9b74.mp3"
+    },
+    "bm_george": {
+     "n": "audio/1d88e7847b5f740d.mp3",
+     "s": "audio/be0032260b7fbf36.mp3"
+    }
+   },
+   "en": "What time does breakfast start?",
+   "lesson": "0005",
+   "note": "Завтрак это «он», поэтому does. И start без s: окончание уже забрал помощник.",
+   "ru": "Во сколько начинается завтрак?",
+   "srs": true
+  },
+  "k0503": {
+   "audio": {
+    "bf_emma": {
+     "n": "audio/dc85da62bd5a017f.mp3",
+     "s": "audio/b868b36ccf40e514.mp3"
+    },
+    "bf_isabella": {
+     "n": "audio/8a8ee81523eae0db.mp3",
+     "s": "audio/01c4e4d93953acc0.mp3"
+    },
+    "bm_fable": {
+     "n": "audio/de690328bd1dc2ae.mp3",
+     "s": "audio/4892714927a14b43.mp3"
+    },
+    "bm_george": {
+     "n": "audio/2c4fac29f13f1241.mp3",
+     "s": "audio/2aa3a4cc765449fc.mp3"
+    }
+   },
+   "en": "Where did you live before?",
+   "lesson": "0005",
+   "note": "Про прошлое помощник did. Глагол после него в начальной форме: live, а не lived.",
+   "ru": "Где ты жил раньше?",
+   "srs": true
   }
  },
  "lessons": [
@@ -684,9 +840,22 @@
    "minutes": 7,
    "title": "Новенький в школе",
    "win": "Теперь ты можешь в первый день в новой школе сказать, что ты новенький, спросить, в каком человек классе, и узнать дорогу."
+  },
+  {
+   "file": "lessons/0005-roommate.html",
+   "hash": "fe90",
+   "id": "0005",
+   "items": [
+    "k0501",
+    "k0502",
+    "k0503"
+   ],
+   "minutes": 8,
+   "title": "Сосед по комнате",
+   "win": "Теперь ты можешь расспросить нового соседа: чем он занимается, как было раньше и как тут всё устроено. И слышишь в вопросе маленькое слово do, does или did."
   }
  ],
- "rev": "b43dfd09",
+ "rev": "1acb6800",
  "sample": "a0101",
  "v": 1,
  "voices": [
