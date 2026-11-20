@@ -1,5 +1,5 @@
 {
- "ack": 3,
+ "ack": 6,
  "app": "Speak EN",
  "files": [
   "index.html",
@@ -27,6 +27,7 @@
   "lessons/0003-how-was-your-weekend.html",
   "lessons/0004-new-at-school.html",
   "lessons/0005-roommate.html",
+  "lessons/0006-next-train.html",
   "reference/phrasebook.html",
   "icons/apple-touch-icon.png",
   "icons/icon-192.png",
@@ -503,6 +504,76 @@
    "lesson": "0005",
    "srs": false
   },
+  "a0601": {
+   "audio": {
+    "bf_isabella": {
+     "n": "audio/725f6dc2089ca584.mp3"
+    }
+   },
+   "en": "Excuse me, what time is the next train to London?",
+   "lesson": "0006",
+   "srs": false
+  },
+  "a0602": {
+   "audio": {
+    "bm_george": {
+     "n": "audio/86c96dfc6cababed.mp3"
+    }
+   },
+   "en": "The next train to London leaves at four twenty from platform three.",
+   "lesson": "0006",
+   "srs": false
+  },
+  "a0603": {
+   "audio": {
+    "bm_fable": {
+     "n": "audio/fb037c45464c0ff5.mp3"
+    }
+   },
+   "en": "The train leaves at four thirty.",
+   "lesson": "0006",
+   "srs": false
+  },
+  "a0604": {
+   "audio": {
+    "bm_george": {
+     "n": "audio/125a27956c223f4d.mp3"
+    }
+   },
+   "en": "Hello, can I help you?",
+   "lesson": "0006",
+   "srs": false
+  },
+  "a0605": {
+   "audio": {
+    "bm_george": {
+     "n": "audio/2e28fe70da095a9b.mp3"
+    }
+   },
+   "en": "The next one leaves at four thirty.",
+   "lesson": "0006",
+   "srs": false
+  },
+  "a0606": {
+   "audio": {
+    "bm_george": {
+     "n": "audio/3ea8fe8eb5f98fe4.mp3"
+    }
+   },
+   "en": "Yes, four thirty. You have got twenty minutes.",
+   "lesson": "0006",
+   "srs": false
+  },
+  "a0607": {
+   "audio": {
+    "bm_george": {
+     "n": "audio/2b7618909c466c10.mp3"
+    }
+   },
+   "en": "Platform three. It is just over there, on the left.",
+   "lesson": "0006",
+   "srs": false
+  },
   "k0201": {
    "audio": {
     "bf_emma": {
@@ -790,6 +861,81 @@
    "note": "Про прошлое помощник did. Глагол после него в начальной форме: live, а не lived.",
    "ru": "Где ты жил раньше?",
    "srs": true
+  },
+  "k0601": {
+   "audio": {
+    "bf_emma": {
+     "n": "audio/4a2ce6f2d2aee7ea.mp3",
+     "s": "audio/93023bf7e16d8ae1.mp3"
+    },
+    "bf_isabella": {
+     "n": "audio/34947e3379ac4f78.mp3",
+     "s": "audio/392ceb39fc214dcf.mp3"
+    },
+    "bm_fable": {
+     "n": "audio/12e8e6c4bc1f819f.mp3",
+     "s": "audio/b7dd2fe263037cf8.mp3"
+    },
+    "bm_george": {
+     "n": "audio/c7efb53eb0a766c4.mp3",
+     "s": "audio/1842200ba77e4844.mp3"
+    }
+   },
+   "en": "What time is the next train to London?",
+   "lesson": "0006",
+   "note": "Здесь is, без does: в вопросе нет другого глагола, только be.",
+   "ru": "Во сколько следующий поезд до Лондона?",
+   "srs": true
+  },
+  "k0602": {
+   "audio": {
+    "bf_emma": {
+     "n": "audio/92188549599c8b31.mp3",
+     "s": "audio/1220e37d90eafe66.mp3"
+    },
+    "bf_isabella": {
+     "n": "audio/8d61028f87a9cef0.mp3",
+     "s": "audio/ec53ba6b31920ddf.mp3"
+    },
+    "bm_fable": {
+     "n": "audio/b52d97a2c6d8c813.mp3",
+     "s": "audio/fa45ca7e3c2e94e7.mp3"
+    },
+    "bm_george": {
+     "n": "audio/f73639478e0e4d85.mp3",
+     "s": "audio/60b63a0057879ad8.mp3"
+    }
+   },
+   "en": "Which platform does it leave from?",
+   "lesson": "0006",
+   "note": "Есть глагол leave, значит нужен помощник. Поезд это it, поэтому does. From стоит в самом конце.",
+   "ru": "С какой платформы он отправляется?",
+   "srs": true
+  },
+  "k0603": {
+   "audio": {
+    "bf_emma": {
+     "n": "audio/76ca4c56b89b21e6.mp3",
+     "s": "audio/5646040e3f78002f.mp3"
+    },
+    "bf_isabella": {
+     "n": "audio/037024ff308935ac.mp3",
+     "s": "audio/7c7a7445a91edc5d.mp3"
+    },
+    "bm_fable": {
+     "n": "audio/9c616b48e09003e4.mp3",
+     "s": "audio/30b2a7da27b33744.mp3"
+    },
+    "bm_george": {
+     "n": "audio/178b4f72b55cb4ae.mp3",
+     "s": "audio/cadda92db7aefe4e.mp3"
+    }
+   },
+   "en": "Sorry, did you say four thirty?",
+   "lesson": "0006",
+   "note": "Так переспрашивают, когда не уверен в числе. Did, потому что человек уже сказал это.",
+   "ru": "Извини, ты сказал четыре тридцать?",
+   "srs": true
   }
  },
  "lessons": [
@@ -853,9 +999,22 @@
    "minutes": 8,
    "title": "Сосед по комнате",
    "win": "Теперь ты можешь расспросить нового соседа: чем он занимается, как было раньше и как тут всё устроено. И слышишь в вопросе маленькое слово do, does или did."
+  },
+  {
+   "file": "lessons/0006-next-train.html",
+   "hash": "c785",
+   "id": "0006",
+   "items": [
+    "k0601",
+    "k0602",
+    "k0603"
+   ],
+   "minutes": 8,
+   "title": "Следующий поезд",
+   "win": "Теперь ты можешь узнать на вокзале время и платформу, поймать числа на слух и переспросить, если не уверен."
   }
  ],
- "rev": "1acb6800",
+ "rev": "34c09363",
  "sample": "a0101",
  "v": 1,
  "voices": [

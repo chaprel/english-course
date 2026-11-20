@@ -336,7 +336,7 @@ const STEPS = {
         .filter((w) => !have.has(normEn(w)));
       extra = shuffled(pool).slice(0, 2);
     }
-    let attempts = 0, firstOk = null;
+    let attempts = 0, firstOk = null, firstGot = '', lastOk = false;
     const answer = h('div', { class: 'tiles answer', 'aria-label': 'Твоя фраза' });
     const pool = h('div', { class: 'tiles' });
     const fb = h('p', { class: 'feedback', 'aria-live': 'polite' });
@@ -356,7 +356,8 @@ const STEPS = {
       attempts++;
       const got = [...answer.children].map((t) => t.textContent).join(' ');
       const ok = got === it.en;
-      if (firstOk === null) firstOk = ok;
+      if (firstOk === null) { firstOk = ok; firstGot = got; }
+      lastOk = ok;
       if (ok || attempts >= 2) {
         fb.textContent = ok ? 'Верно.' : `Правильно так: ${it.en}`;
         check.disabled = true;
@@ -371,7 +372,8 @@ const STEPS = {
     });
     await R.show([h('p', { class: 'eyebrow' }, 'Собери фразу'), h('h1', {}, it.ru),
       h('p', { class: 'muted' }, 'Нажимай слова по порядку. Лишние слова тоже есть.'), answer, pool, check, fb]);
-    return { tag: 'T', val: `${s.item}=${firstOk ? 'ok' : 'x' + attempts}`, ok: !!firstOk };
+    // ok = first try; x2 = right on the second try; xx = answer had to be shown. The first wrong order is kept for the teacher.
+    return { tag: 'T', val: `${s.item}=${firstOk ? 'ok' : `${lastOk ? 'x' + attempts : 'xx'}(${clean(firstGot, 80)})`}`, ok: !!firstOk };
   },
 
   async pair(R, s) {
